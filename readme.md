@@ -118,7 +118,7 @@ SQL_DATABASE=your_database
 
 ## ETL-Pipeline Architecture
 
-The ETL pipeline processes files stored in Azure Blob Storage and extracts metadata, which is stored both in SQL Server for centralized management and in Pinecone for advanced similarity-based querying. The pipeline organizes data into namespaces within a single Pinecone index (`BBGD-Index`), ensuring logical separation for different collections while maintaining high query efficiency.
+The ETL pipeline processes files stored in Azure Blob Storage and extracts metadata, which is stored both in SQL Server for centralized management and in Pinecone for advanced similarity-based querying. The pipeline organizes data into namespaces within a single Pinecone index (`index`), ensuring logical separation for different collections while maintaining high query efficiency.
 
 ### Key Steps:
 
